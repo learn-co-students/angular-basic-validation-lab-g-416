@@ -9,7 +9,8 @@ describe('Events Test', function() {
 
 	describe('Username', function () {
 		var messages= element(by.css('input[name="username"] + div'));
-
+		// console.log(messages)
+		// browser.pause()
 		it('should make sure the username is required', function() {
 			username.click();
 			element(by.css('body')).click();
